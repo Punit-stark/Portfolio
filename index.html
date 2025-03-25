@@ -26,9 +26,6 @@
 
 <style>
 
-/*======================================
-//--//-->   ABOUT
-======================================*/
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -141,7 +138,10 @@
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/mypic.png);">
+	          	<div class="one-third js-fullheight order-md-last img ">
+					<div class="about-img">
+						<img src="images/mypic.png" height="50%" style="margin-top: 40px;"  alt="">
+					  </div>
 	          	 <div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
@@ -149,47 +149,10 @@
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Punit Kirtuniya</span></h1>
 
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
-
-						<!-- <script>
-
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
-
-						// Create an array of typing text
-						const typingTexts = [
-						'Software Engineer  ',
-						'YouTuber  ',
-						'Teacher   ',
-						];
-
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
-
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script> -->
-
 						<br>
 						<br>
 			            <h2>A Software Engineer</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
+						
 			            <p><a href="https://www.linkedin.com/in/punit-k-83662722a/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
 							<a href="https://github.com/Punit-stark" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 		            </div>
@@ -206,15 +169,18 @@
     	<div class="container">
 			<div class="row">
 				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
+			
 					<div class="col-md-6 col-lg-5 d-flex">
 						<div class="img-about img d-flex align-items-stretch">
 							<div class="overlay">
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 									  <div class="about-img">
-										<img src="images/mypic.png" class="img-fluid rounded b-shadow-a" alt="">
+										<img src="images/mypic.png" height="50%"  class="img-fluid rounded b-shadow-a" alt="">
 									  </div>
+									<div >
+										
+									</div>
 									</div>
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
@@ -226,7 +192,7 @@
 									  </div>
 									</div>
 								  </div>
-
+								  
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
 									<span>Node.Js</span> <span class="pull-right">95%</span>
@@ -283,16 +249,6 @@
 							</div>
 						</div>
 
-
-						<!-- <div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="30">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/rishabhnmishra/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</div>
